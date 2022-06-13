@@ -43,7 +43,7 @@ interface Level {
  * @license MIT
  * @version 2.0.0
  */
-export default class Header implements BlockTool {
+export class Header implements BlockTool {
   public api: any
   public readOnly: boolean
   public _CSS: any
